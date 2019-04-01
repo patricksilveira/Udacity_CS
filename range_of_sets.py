@@ -28,8 +28,8 @@ def smallest (a,b,c):
 def set_range(a,b,c):
     return biggest(a,b,c) - smallest(a,b,c)
 
-print set_range(10, 4, 7)
+print (set_range(10, 4, 7))
 #>>> 6  # since 10 - 4 = 6
 
-print set_range(1.1, 7.4, 18.7)
+print (set_range(1.1, 7.4, 18.7))
 #>>> 17.6 # since 18.7 - 1.1 = 17.6

@@ -26,4 +26,4 @@ x = 3.14159
 x = 27.63
 x = x + 0.5
 x = str(x)
-print x[:x.find('.')]
+print (x[:x.find('.')])

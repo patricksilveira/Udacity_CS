@@ -20,12 +20,12 @@ def jungle_animal(animal, my_speed):
         if my_speed > 115:
             print ("Run!")
         else:
-                print "Stay calm and wait!"
+            print ("Stay calm and wait!")
     else:
         if animal == 'zebra':
-            print "Try to ride a zebra!"
+            print ("Try to ride a zebra!")
         else:
-            print "Introduce yourself!"
+            print ("Introduce yourself!")
 
 
 

@@ -15,17 +15,16 @@
 # This exercise can be solved with only unit 1 knowledge
 # (no loops or conditions)
 
-word = "madam"
-# test case 2
-#word = "madman" # uncomment this to test
 
+word = "madam"
+word = "madman"
+is_palindrome = word[::-1].find(word)
 ###
 # YOUR CODE HERE. DO NOT DELETE THIS LINE OR ADD A word DEFINITION BELOW IT.
 ###
 
-is_palindrome = word[::-1].find(word)
 
 # TESTING
-print is_palindrome
+print (is_palindrome)
 # >>> 0  # outcome if word == "madam"
 # >>> -1 # outcome if word == "madman"

@@ -5,16 +5,15 @@
 # followed by the first input.
 
 
-
-
-
-
-def abbaize (a,b):
+def abbaize(a, b):
     return a + b + b + a
 
 
-print abbaize('a','b')
-#>>> 'abba'
+print(abbaize('a', 'b'))
+# >>> 'abba'
 
-print abbaize('dog','cat')
-#>>> 'dogcatcatdog'
+print(abbaize('dog', 'cat'))
+# >>> 'dogcatcatdog'
+
+
+len(abbaize)

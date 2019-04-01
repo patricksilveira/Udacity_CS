@@ -14,9 +14,9 @@
 def countdown(number):
 
     while number != 0:
-        print number
+        print (number)
         number = number - 1
-    print "Blastoff!"
+    print ("Blastoff!")
 
 countdown(3)
 #>>> 3

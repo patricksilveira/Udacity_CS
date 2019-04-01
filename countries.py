@@ -8,7 +8,7 @@ countries = [['China','Beijing',1350],
 
 # Write code to print out the capital of India
 # by accessing the list
-print countries [1][1]
+print (countries [1][1])
 
 # Given the variable countries defined as:
 
@@ -25,4 +25,4 @@ countries = [['China','Beijing',1350],
 # by the population of Romania (21).
 # Please print your result.
 
-print countries[0][2] / countries[2][2]
+print (countries[0][2] / countries[2][2])
