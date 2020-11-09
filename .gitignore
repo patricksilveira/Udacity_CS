@@ -1,12 +1,6 @@
 #Config Files
 .vscode 
-.ipynb_checkpoints
-.pytest_chache/v/cache 
-.DS_Store
-test.py
-social_game.py
+
+#Folders
 /__pycache__
-/QUIZES
-/Jupter
-/HackerRanking 
-/EXERCISES
+/test_others
